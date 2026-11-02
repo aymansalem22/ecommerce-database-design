@@ -104,7 +104,7 @@ ecommerce-database-design/
 3. Execute `sql/02_sample_data.sql` to insert fictional test records.
 4. Execute `sql/03_reports.sql` to generate the three reports.
 
-The SQL scripts target PostgreSQL. Database execution and runtime validation have not yet been confirmed.
+The SQL scripts were successfully tested using an online PostgreSQL Playground with the provided sample data.
 
 ## 9. Design Assumptions
 
@@ -130,6 +130,18 @@ These assumptions should be reviewed against the business requirements before pr
 
 ## 11. Project Status
 
-Database schema, sample data, SQL reports, and ERD have been prepared as mentorship deliverables.
+The database schema, sample data, SQL reports, and ERD have been completed as part of Java Mentorship #10.
 
-SQL runtime testing remains pending.
+### SQL Testing
+
+The SQL scripts were executed successfully using an online PostgreSQL Playground.
+
+- **Database Schema:** All five tables were created successfully.
+- **Sample Data:** Test records were inserted successfully.
+- **Daily Revenue:** Passed — returned the expected daily totals.
+- **Monthly Top-Selling Products:** Passed — Keyboard (4), Laptop (3), Mouse (3).
+- **Customers Spending Over $500:** Passed — Ahmed ($2,525).
+
+All three reporting queries returned the expected results using the provided sample data.
+
+**Testing scope:** Basic schema creation, sample data insertion, and report execution. Additional edge-case and constraint testing has not been performed.
