@@ -70,6 +70,16 @@ Identifies customers whose total order amounts exceed $500 during October 2026.
 
 The queries demonstrate JOIN, WHERE, SUM, GROUP BY, HAVING, and ORDER BY.
 
+
+### SQL Files
+
+| File | Description |
+|---|---|
+| [01_schema.sql](sql/01_schema.sql) | Creates the five database tables and their constraints. |
+| [02_sample_data.sql](sql/02_sample_data.sql) | Inserts fictional sample data for testing. |
+| [03_reports.sql](sql/03_reports.sql) | Contains the three SQL reporting queries. |
+  
+
 ## 6. Denormalization
 
 Denormalization involves intentionally storing redundant or precomputed data to improve specific database operations.
